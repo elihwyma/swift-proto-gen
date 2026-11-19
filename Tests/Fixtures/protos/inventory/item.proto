@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package inventory;
+
+import "example/common.proto";
+
+message Item {
+  string sku = 1;
+  example.Money price = 2;
+}

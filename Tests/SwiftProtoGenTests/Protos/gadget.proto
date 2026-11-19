@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package gadgets;
+
+import "google/protobuf/timestamp.proto";
+
+message Gadget {
+  string name = 1;
+  google.protobuf.Timestamp made_at = 2;
+}
